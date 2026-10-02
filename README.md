@@ -1,6 +1,8 @@
 # The Algorithms - C # {#mainpage}
 <!-- the suffix in the above line is required for doxygen to consider this as the index page of the generated documentation site -->
 
+> **Fork 说明（Vitro 勘探基线）**：本仓库是 [TheAlgorithms/C](https://github.com/TheAlgorithms/C) 的 fork，唯一用途是 [Vitro](https://github.com/rustin-beep/Vitro)（白箱教学 C 子集引擎）实机代码对拍的**外置语料基线**——默认分支 `vitro-probe-baseline` = 上游终态 + 勘探探针态（89 文件编译修复），对应 Vitro 仓 `scripts/realcode_diff/` 的测量金样本与勘探工具。`master` 分支保持上游原样（对照用）。详见根目录 [`README.fork.md`](README.fork.md)。
+
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/TheAlgorithms/C)
 [![CodeQL CI](https://github.com/TheAlgorithms/C/actions/workflows/codeql.yml/badge.svg)](https://github.com/TheAlgorithms/C/actions/workflows/codeql_analysis.yml)
 [![Gitter chat](https://img.shields.io/badge/Chat-Gitter-ff69b4.svg?label=Chat&logo=gitter&style=flat-square)](https://gitter.im/TheAlgorithms)
