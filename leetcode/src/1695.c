@@ -1,3 +1,4 @@
+#include <stdlib.h>
 // Window sliding. Runtime: O(n), Space: O(n)
 int maximumUniqueSubarray(int* nums, int numsSize){
     short* numsSet = (short*)calloc(10001, sizeof(short));

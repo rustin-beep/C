@@ -1,3 +1,6 @@
+#include <math.h>
+#include <stdlib.h>
+#include <string.h>
 int myAtoi(char *str)
 {
     int minusFlag = 0;

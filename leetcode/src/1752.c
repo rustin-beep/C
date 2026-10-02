@@ -1,3 +1,4 @@
+#include <stdbool.h>
 bool check(int* nums, int numsSize){
     if (numsSize == 1) {
         return true;

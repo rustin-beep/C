@@ -1,3 +1,5 @@
+#include <stdlib.h>
+struct TreeNode { int val; struct TreeNode *left; struct TreeNode *right; };
 void processTraversal(struct TreeNode *root, int *res, int *size)
 {
     if (!root)

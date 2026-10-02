@@ -1,3 +1,5 @@
+#include <stdbool.h>
+#include <stdlib.h>
 int** initSet(int size){
     int** result = (int**) malloc(size * sizeof(int*));
     for (int i = 0; i < size; i++) {

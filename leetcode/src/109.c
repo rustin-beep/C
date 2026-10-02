@@ -1,3 +1,6 @@
+#include <stdlib.h>
+struct TreeNode { int val; struct TreeNode *left; struct TreeNode *right; };
+struct ListNode { int val; struct ListNode *next; };
 struct TreeNode *buildBST(struct ListNode *head, struct ListNode *tail)
 {
     if (head == tail)

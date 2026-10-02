@@ -1,3 +1,6 @@
+#include <stdbool.h>
+#include <stdlib.h>
+#include <string.h>
 const int EnglishLettersNumber = 26;
 
 void countCharsForStringSlice(int* charsCounter, char* s, int length, int sign) {

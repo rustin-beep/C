@@ -1,3 +1,4 @@
+#include <stdlib.h>
 /* 1st way: Using 2 pointers */
 int *sortedSquares(int *A, int ASize, int *returnSize)
 {
@@ -23,7 +24,7 @@ int *sortedSquares(int *A, int ASize, int *returnSize)
 /* 2nd way: Using qsort */
 int cmpval(const void *a, const void *b) { return *(int *)a - *(int *)b; }
 
-int *sortedSquares(int *A, int ASize, int *returnSize)
+int *sortedSquares_qsort(int *A, int ASize, int *returnSize)
 {
     int *res = malloc(ASize * sizeof(int));
     for (int i = 0; i < ASize; i++) res[i] = A[i] * A[i];

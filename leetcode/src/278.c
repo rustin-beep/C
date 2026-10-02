@@ -1,3 +1,4 @@
+#include <stdbool.h>
 // Forward declaration of isBadVersion API.
 bool isBadVersion(int version);
 

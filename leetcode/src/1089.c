@@ -1,3 +1,4 @@
+#include <stdlib.h>
 void duplicateZeros(int *arr, int arrSize)
 {
     int i, start = 0;

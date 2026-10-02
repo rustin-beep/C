@@ -1,11 +1,9 @@
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     struct TreeNode *left;
- *     struct TreeNode *right;
- * };
- */
+#include <stdlib.h>
+struct TreeNode {
+    int val;
+    struct TreeNode *left;
+    struct TreeNode *right;
+};
 
 struct NodeDistributeInfo {
     int distributeMoves;

@@ -1,3 +1,6 @@
+#include <stdbool.h>
+#include <stdlib.h>
+#include <string.h>
 #define max(a,b) (((a)>(b))?(a):(b))
 
 bool equalSubstrings(char* text, int firstIndex, int secondIndex, int length){

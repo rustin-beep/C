@@ -1,10 +1,8 @@
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     struct ListNode *next;
- * };
- */
+#include <stdbool.h>
+struct ListNode {
+    int val;
+    struct ListNode *next;
+};
 bool hasCycle(struct ListNode *head)
 {
     struct ListNode *fast = head, *slow = head;

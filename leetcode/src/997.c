@@ -1,3 +1,4 @@
+#include <stdlib.h>
 // Using hashtable.
 // Runtime: O(n + len(trust))
 // Space: O(n)

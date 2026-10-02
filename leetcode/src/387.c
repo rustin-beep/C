@@ -1,3 +1,5 @@
+#include <stdlib.h>
+#include <string.h>
 int firstUniqChar(char *s)
 {
     int *arr = calloc(256, sizeof(int));

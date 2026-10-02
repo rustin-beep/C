@@ -1,3 +1,6 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
 char *getOne(char c)
 {
     switch (c)

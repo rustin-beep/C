@@ -1,3 +1,6 @@
+#include <stdbool.h>
+#include <stdlib.h>
+#include <string.h>
 bool isValid(char *s)
 {
     int i, k = 0, len = strlen(s);

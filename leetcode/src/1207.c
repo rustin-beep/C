@@ -1,3 +1,5 @@
+#include <stdbool.h>
+#include <stdlib.h>
 #define MAP_SIZE 2048
 
 int cmpvalue(const void *a, const void *b) { return *(int *)b - *(int *)a; }

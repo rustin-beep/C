@@ -1,3 +1,6 @@
+#include <stdbool.h>
+#include <stdlib.h>
+#include <string.h>
 const charLength = 26;
 
 int* charsCount(char* word){

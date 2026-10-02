@@ -1,3 +1,6 @@
+#include <stdbool.h>
+#include <stdlib.h>
+#include <string.h>
 bool isAnagram(char *s, char *t)
 {
     int n = strlen(s);

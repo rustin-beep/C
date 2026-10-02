@@ -1,3 +1,6 @@
+#include <stdbool.h>
+#include <stdlib.h>
+#include <string.h>
 bool isVowel(char chr){
     switch(chr){
         case 'a':

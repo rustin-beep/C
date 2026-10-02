@@ -1,3 +1,6 @@
+#include <stdbool.h>
+#include <stdlib.h>
+#include <string.h>
 bool detectCapitalUse(char *word)
 {
     int len = strlen(word);

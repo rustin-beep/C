@@ -1,8 +1,8 @@
 /* Circularly Linked List (Basic Operations) - Program to create a Circularly linked list abstract data type and perform various operations on it (Variable first and last declared globally) */
 
 #include  <stdio.h>
-#include <conio.h>
 #include  <stdlib.h>
+#include <stdlib.h>
 #define  NULL  0
 
 /* Assume that the data portion of each node consists of ONLY an integer.*/
@@ -111,10 +111,9 @@ void  traverse()
   }
 }
 
-void main()
+int main(void)
 {
   int  x , k , ch ;
-  clrscr() ;
   do
   {
     printf("\n Menu: \n") ;
@@ -148,7 +147,7 @@ void main()
  }
  while(ch!=4) ;
 
- getch() ;
+ return 0;
 }
 
 

@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #define min(a,b) (((a)<(b))?(a):(b))
 
 // Dynamic programming.

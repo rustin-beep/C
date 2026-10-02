@@ -1,3 +1,5 @@
+#include <stdlib.h>
+struct TreeNode { int val; struct TreeNode *left; struct TreeNode *right; };
 struct TreeNode *newNode(int item)
 {
     struct TreeNode *node = (struct TreeNode *)malloc(sizeof(struct TreeNode));

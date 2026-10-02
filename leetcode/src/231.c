@@ -1,3 +1,4 @@
+#include <stdbool.h>
 // Without loops/recursion.
 // Runtime: O(1)
 // Space: O(1)

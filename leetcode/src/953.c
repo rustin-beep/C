@@ -1,3 +1,6 @@
+#include <stdbool.h>
+#include <stdlib.h>
+#include <string.h>
 #define min(x, y) (((x) < (y)) ? (x) : (y))
 
 bool isWordLess(char* word1, char* word2, int* charOrder){

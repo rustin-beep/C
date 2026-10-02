@@ -1,3 +1,4 @@
+#include <stdlib.h>
 // Use monotonic stack.
 // Keep the stack of monotonically increasing price and index.
 

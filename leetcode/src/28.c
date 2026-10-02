@@ -1,3 +1,5 @@
+#include <stdlib.h>
+#include <string.h>
 /*
  * brute force approach
  * time complexity: O(mn)

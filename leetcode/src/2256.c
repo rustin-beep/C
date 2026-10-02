@@ -1,3 +1,4 @@
+#include <stdlib.h>
 // Prefix sum.
 // - Calculate whole nums sum.
 // - Calculate currIndex sum.

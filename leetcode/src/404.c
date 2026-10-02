@@ -1,3 +1,6 @@
+#include <stdbool.h>
+#include <stdlib.h>
+struct TreeNode { int val; struct TreeNode *left; struct TreeNode *right; };
 bool isleaf(struct TreeNode *root)
 {
     return root->left == NULL && root->right == NULL;

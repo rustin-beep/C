@@ -1,11 +1,9 @@
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     struct TreeNode *left;
- *     struct TreeNode *right;
- * };
- */
+#include <stdlib.h>
+struct TreeNode {
+    int val;
+    struct TreeNode *left;
+    struct TreeNode *right;
+};
 
 #define max(a,b) (((a)>(b))?(a):(b))
 
@@ -29,7 +27,7 @@ int recursiveSolve(struct TreeNode* node, int* result){
 // Runtime: O(n), n - the number of nodes in tree.
 // Space: O(1)
 int maxPathSum(struct TreeNode* root){
-    const int LOWER_BOUND = -2147483648
+    const int LOWER_BOUND = -2147483648;
     int result = LOWER_BOUND;
     recursiveSolve(root, &result);
     return result;

@@ -1,3 +1,5 @@
+#include <stdbool.h>
+#include <stdlib.h>
 void visitRooms(int key, int** rooms, int roomsSize, int* roomsColSize, int* visitedRooms){
     if (visitedRooms[key] == 1){
         return;

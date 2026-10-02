@@ -1,3 +1,5 @@
+#include <stdlib.h>
+#include <string.h>
 char *countAndSay(int n)
 {
     // Calculating the length of array

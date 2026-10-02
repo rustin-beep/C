@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #define max(a,b) (((a)>(b))?(a):(b))
 
 int longestSquareStreakDp(int* numsSet, int numsSetSize, int* dp, long num){

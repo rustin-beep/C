@@ -1,3 +1,5 @@
+#include <stdlib.h>
+#include <string.h>
 #define max(x,y)(((x)>(y))?(x):(y))
 
 const int notCalculated = -2;
