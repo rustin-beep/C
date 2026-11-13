@@ -1,5 +1,7 @@
 #define max(X, Y) ((X) > (Y) ? (X) : (Y))
 
+#include <string.h>
+
 int maximizeTarget(char * answerKey, char targetChar, int k){
     int leftIndex = -1;
     int result = 0;

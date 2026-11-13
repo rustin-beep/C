@@ -1,7 +1,7 @@
 #include <stdbool.h>
 #include <stdlib.h>
 #include <string.h>
-const charLength = 26;
+const int charLength = 26;
 
 int* charsCount(char* word){
     int* result = calloc(charLength, sizeof(int));

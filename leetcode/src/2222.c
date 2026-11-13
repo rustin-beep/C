@@ -1,3 +1,5 @@
+#include <string.h>
+
 long numberOfWaysForChar(char * s, char c){
     long firstBuildingAppearNumber = 0;
     long secondBuildingAppearNumber = 0;

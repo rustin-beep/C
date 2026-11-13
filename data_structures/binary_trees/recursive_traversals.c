@@ -4,6 +4,7 @@
  */
 
 #include <stdio.h>
+struct node { struct node *leftNode; int data; struct node *rightNode; };
 
 void inOrderTraversal(struct node *node)
 {

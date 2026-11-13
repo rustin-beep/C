@@ -1,3 +1,5 @@
+#include <stdlib.h>
+
 int diff(const int* i, const int* j)
 
 {

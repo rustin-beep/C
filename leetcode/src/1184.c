@@ -8,7 +8,7 @@ int distanceBetweenBusStops(int *distance, int distanceSize, int start,
         start = destination;
         destination = tmp;
     }
-    for (auto i = 0; i < distanceSize; ++i)
+    for (int i = 0; i < distanceSize; ++i)
     {
         if (i >= start && i < destination)
             sum1 += distance[i];

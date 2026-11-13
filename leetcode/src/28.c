@@ -80,43 +80,6 @@ void fill_overlap(char *needle, int len_needle, int *overlap)
     }
 }
 
-int strStr(char *haystack, char *needle)
-{
-    int i = 0; /* index for haystack */
-    int j = 0; /* index for needle */
-
-    int len_needle = strlen(needle);
-    int len_haystack = strlen(haystack);
-
-    if (!len_needle)
-        return 0;
-
-    int overlap[len_needle];
-
-    fill_overlap(needle, len_needle, overlap);
-
-    while (i < len_haystack)
-    {
-        if (needle[j] == haystack[i])
-        {
-            i++;
-            j++;
-        }
-
-        if (j == len_needle)
-        {
-            return (i - j);
-        }
-        else if (i < len_haystack && needle[j] != haystack[i])
-        {
-            if (j != 0)
-                j = overlap[j - 1];
-            else
-                i = i + 1;
-        }
-    }
-    return -1;
-}
 
 /* ----------------------------------------------------------------------------------------
  */

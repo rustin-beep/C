@@ -1,5 +1,7 @@
 #include <stdbool.h>
 #include <stdlib.h>
+#undef max
+#undef min
 struct TreeNode { int val; struct TreeNode *left; struct TreeNode *right; };
 int max(int a, int b) { return a >= b ? a : b; }
 

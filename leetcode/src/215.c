@@ -1,4 +1,6 @@
-int *cmpval(const void *a, const void *b) { return *(int *)b - *(int *)a; }
+#include <stdlib.h>
+
+int cmpval(const void *a, const void *b) { return *(int *)b - *(int *)a; }
 
 int findKthLargest(int *nums, int numsSize, int k)
 {

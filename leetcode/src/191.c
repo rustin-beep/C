@@ -1,3 +1,5 @@
+#include <stdint.h>
+
 int hammingWeight(uint32_t n)
 {
     int TotalBits = 32;

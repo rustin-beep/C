@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <string.h>
+int getEndValidIndex(int* dp, char* s, int index, int lenS);
 #define max(x,y)(((x)>(y))?(x):(y))
 
 const int notCalculated = -2;

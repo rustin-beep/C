@@ -1,3 +1,5 @@
+#include <string.h>
+
 int coundDevices(char* bankRow){
     int result = 0;
     int bankRowSize = strlen(bankRow);

@@ -1,3 +1,6 @@
+#include <string.h>
+#include <ctype.h>
+
 char *reverseOnlyLetters(char *S)
 {
     int last = strlen(S) - 1, i;

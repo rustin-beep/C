@@ -1,3 +1,5 @@
+#include <string.h>
+
 char findTheDifference(char *s, char *t)
 {
     int sum1 = 0, sum2 = 0;

@@ -1,4 +1,6 @@
 // Given a string s, returns the number of segments in the string.
+#include <string.h>
+
 int countSegments(char * s){
     int sLen = strlen(s);
     int prevSpace = 1;

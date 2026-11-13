@@ -1,3 +1,5 @@
+#include <string.h>
+
 int romanToInt(char *s)
 {
     int romanToInt = 0;

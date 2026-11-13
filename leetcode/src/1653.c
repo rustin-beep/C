@@ -3,6 +3,8 @@
 // Dynamic programming approach. Down -> Up.
 // Runtime: O(n)
 // Space: O(1)
+#include <string.h>
+
 int minimumDeletions(char * s){
     int len = strlen(s);
     

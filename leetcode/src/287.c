@@ -1,3 +1,5 @@
+#include <stdlib.h>
+
 int cmpval(const void *a, const void *b) { return *(int *)a - *(int *)b; }
 int findDuplicate(int *nums, int numsSize)
 {

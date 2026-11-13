@@ -1,3 +1,5 @@
+#include <stdint.h>
+
 int findComplement(int num)
 {
     int TotalBits = 0;

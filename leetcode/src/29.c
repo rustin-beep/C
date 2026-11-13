@@ -1,3 +1,5 @@
+#include <limits.h>
+
 int divide(int dividend, int divisor)
 {
     int sign = 1;

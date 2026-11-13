@@ -1,3 +1,5 @@
+#include <stdlib.h>
+
 int compare(const void* i, const void* j)
 {
     return *((int*)i) - *((int*)j);

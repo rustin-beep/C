@@ -1,3 +1,4 @@
+#include <ctype.h>
 #include <stdbool.h>
 #include <stdlib.h>
 #include <string.h>
@@ -30,16 +31,6 @@ bool isAllUpper(char *word)
     for (int i = 0; i < len; i++)
     {
         if (islower(word[i]))
-            return 0;
-    }
-    return 1;
-}
-bool detectCapitalUse(char *word)
-{
-    int len = strlen(word);
-    for (int i = 1; i < len; i++)
-    {
-        if (isupper(word[i]) && !isAllUpper(word))
             return 0;
     }
     return 1;

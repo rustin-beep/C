@@ -1,6 +1,7 @@
 #include <stdbool.h>
 #include <stdlib.h>
 #include <string.h>
+int longestDecompositionDp(char* text, int textLen, int index, int* dp);
 #define max(a,b) (((a)>(b))?(a):(b))
 
 bool equalSubstrings(char* text, int firstIndex, int secondIndex, int length){

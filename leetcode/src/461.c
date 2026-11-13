@@ -1,3 +1,5 @@
+#include <stdint.h>
+
 int hammingDistance(int x, int y)
 {
     int difference =

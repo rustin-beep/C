@@ -1,3 +1,5 @@
+#include <string.h>
+
 int lengthOfLongestSubstring(char *str)
 {
     int n = strlen(str);
@@ -34,32 +36,3 @@ int lengthOfLongestSubstring(char *str)
     return L_len;
 }
 /* Brute force */
-int lengthOfLongestSubstring(char *s)
-{
-    int cur_max = 0, max = 0;
-    int counter[255];
-    int end = 0;
-
-    memset(counter, 0, sizeof(int) * 255);
-    while (end < strlen(s))
-    {
-        if (counter[s[end]] == 0)
-        {
-            counter[s[end]]++;
-            end++;
-            cur_max++;
-        }
-        else
-        {
-            char c = s[end];
-            memset(counter, 0, 255 * sizeof(int));
-            if (cur_max >= max)
-                max = cur_max;
-            cur_max = 0;
-            while (s[end - 1] != c) end--;
-        }
-    }
-    if (cur_max >= max)
-        max = cur_max;
-    return max;
-}

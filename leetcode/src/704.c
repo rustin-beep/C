@@ -1,3 +1,5 @@
+#include <stdlib.h>
+
 int search(int *nums, int numsSize, int target)
 {
     int low = 0, high = numsSize - 1;
@@ -23,11 +25,3 @@ int search(int *nums, int numsSize, int target)
 /* Another solution: Using bsearch() */
 int cmpint(const void *a, const void *b) { return *(int *)a - *(int *)b; }
 
-int search(int *nums, int numsSize, int target)
-{
-    int *ret = bsearch(&target, nums, numsSize, sizeof(int), cmpint);
-    if (ret)
-        return (ret - nums);
-    else
-        return -1;
-}

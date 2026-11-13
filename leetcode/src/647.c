@@ -1,6 +1,9 @@
 
 /* Author : Saurav Dubey */
 
+#include <string.h>
+int countPalin(char *s, int head, int tail, int len);
+
 int countSubstrings(char *s)
 {
     int len = strlen(s);
